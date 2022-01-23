@@ -1,0 +1,114 @@
+header .header {
+  background-color: #313131;
+}
+
+header .header .logo-wrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header .header .logo-wrapper .fa-dragon {
+  color: white;
+}
+
+header .header .logo-wrapper .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header .logo-wrapper .menu ul li {
+  list-style: none;
+}
+
+header .header .logo-wrapper .menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+main .first-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: whitesmoke;
+}
+
+main .first-content .col-5 a {
+  height: 40px;
+  width: 200px;
+  background-color: #e28418;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+main .first-content .col-7 img {
+  width: 770px;
+  height: 280px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 3px solid #e28418;
+}
+
+main .second-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .second-content h1 {
+  padding-bottom: 20px;
+}
+
+main .second-content .col-4 .card {
+  text-align: center;
+}
+
+main .second-content .col-4 a {
+  background-color: #e28418;
+  color: white;
+  border-radius: 10px;
+}
+
+footer .footer {
+  background-color: #313131;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+footer .footer .col-4 li {
+  list-style: none;
+}
+
+footer .footer .col-3 .social-media {
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+footer .footer .col-3 .social-media a {
+  margin-top: 20px;
+}
+
+footer .footer .col-3 .social-media .fa-twitter-square {
+  color: aqua;
+}
+
+footer .footer .col-3 .social-media .fa-rss-square {
+  color: orange;
+}
+
+footer .footer .col-3 .social-media .fa-google-plus-square {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
